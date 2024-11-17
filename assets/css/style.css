@@ -95,10 +95,6 @@ h2 {
 
 /* Events */
 
-#events th:hover {
-    background-color: var(--light-highlight-color);
-}
-
 #events span * {
     max-width: 320px;
     background-color: var(--highlight-color);
