@@ -99,11 +99,9 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
     padding: 10px;
-    align-self: center;
     text-align: center;
-    align-items: center;
+    /* width: 200px; */
 }
-
 
 /* Game library cards */
 
