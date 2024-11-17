@@ -77,3 +77,37 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px+) */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        /* Make all service cards the same height for consistency */
+        min-height: 191px;
+    }
+}
+
+/* Large devices (laptops, 992px+) */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        /* Make all service cards the same height for consistency */
+        min-height: auto;
+    }
+}
+
+/* XL devices (large screens, 1200px+) */
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        /* Make all service cards the same height for consistency */
+        min-height: 220px;
+    }
+}
+
+/* XXL devices (extra large screens, 1400px+) */
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        /* Make all service cards the same height for consistency */
+        min-height: 195px;
+    }
+}
