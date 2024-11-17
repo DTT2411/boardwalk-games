@@ -103,6 +103,10 @@ h2 {
     /* width: 200px; */
 }
 
+#events table {
+    font-size: 70%;
+}
+
 /* Game library cards */
 
 #new-games .card, #fav-games .card {
@@ -157,6 +161,13 @@ h2 {
 } */
 
 /* Media Queries */
+
+/* Small screens */
+@media screen and (min-width: 576px) {
+    #events table {
+        font-size: 100%;
+    }
+}
 
 /* Medium devices (tablets, 768px+) */
 @media screen and (min-width: 768px) {
