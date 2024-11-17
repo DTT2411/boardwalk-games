@@ -95,9 +95,20 @@ h2 {
 
 /* Events */
 
-#events button * {
-    background-color: red;
+#events th:hover {
+    background-color: var(--light-highlight-color);
 }
+
+#events span * {
+    max-width: 320px;
+    background-color: var(--highlight-color);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    align-self: center;
+}
+
+
 
 /* Game library cards */
 
