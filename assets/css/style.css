@@ -93,6 +93,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events button * {
+    background-color: red;
+}
+
 /* Game library cards */
 
 #new-games .card, #fav-games .card {
