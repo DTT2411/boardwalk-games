@@ -143,13 +143,15 @@ h2 {
 
 #contact i {
     color: var(--secondary-color);
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     margin-right: 15px;
 }
 
 #contact .social-links i {
     color: var(--light-highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -160,17 +162,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container, .row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media Queries */
 
