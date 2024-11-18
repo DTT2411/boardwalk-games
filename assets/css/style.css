@@ -103,8 +103,20 @@ h2 {
     /* width: 200px; */
 }
 
-#events table {
-    font-size: 70%;
+/* Makes fonts smaller on table by default - media query below to make this apply only to small screens */
+#events .table {
+    font-size: 0.7rem;
+}
+
+.student-discount {
+    font-size: 0.8rem;
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    color: white;
 }
 
 /* Game library cards */
@@ -163,9 +175,15 @@ h2 {
 /* Media Queries */
 
 /* Small screens */
+
+
 @media screen and (min-width: 576px) {
-    #events table {
-        font-size: 100%;
+    /* Make font on events table larger once screen is bigger than mobile */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
     }
 }
 
